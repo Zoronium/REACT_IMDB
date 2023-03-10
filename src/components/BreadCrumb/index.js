@@ -1,6 +1,6 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
 // Styles
 import { Wrapper, Content } from './BreadCrumb.styles';
 
@@ -18,6 +18,6 @@ const BreadCrumb = ({ movieTitle }) => (
 
 BreadCrumb.propTypes = {
   movieTitle: PropTypes.string
-}
+};
 
 export default BreadCrumb;
