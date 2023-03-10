@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const Wrapper = styled.div`
   display: flex;
@@ -24,12 +24,17 @@ export const Content = styled.div`
     flex: 1;
 
     :first-child {
-      margin-right: 0;
+      margin-left: 0;
     }
 
-    @media screen and (max-width: 768px) {
-      display: block;
+    :last-child {
+      margin-right: 0;
     }
+  }
+
+  @media screen and (max-width: 768px) {
+    display: block;
+
     .column {
       margin: 20px 0;
     }

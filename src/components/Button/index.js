@@ -12,6 +12,6 @@ const Button = ({ text, callback }) => (
 Button.propTypes = {
   text: PropTypes.string,
   callback: PropTypes.func
-}
+};
 
 export default Button;
